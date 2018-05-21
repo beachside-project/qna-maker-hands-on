@@ -62,7 +62,7 @@ Azure Portal で Qna Maker の作成が完了したら、以下の情報を入�
 #### STEP4
 
 QnA Maker に FAQ データを追加します。
-FAQ サイト、Q&A を記載したファイルをアップロードすることができます。今回のハンズオンでは、Azure 以下の URL を入力します。
+FAQ サイト、Q&A を記載したファイルをアップロードすることができます。今回のハンズオンでは、以下の URL (Azure サポートに関する FAQ ページ)を入力します。
 
 ```html
 https://azure.microsoft.com/ja-jp/support/faq/
@@ -86,9 +86,9 @@ https://azure.microsoft.com/ja-jp/support/faq/
 
 &nbsp;
 
-QA を変更した場合は、画面右上の[Save and train]をクリックし、編集内容を保存し、QnA Maker モデルのトレーニングを行います。
+STEP4 で入力した [Azure サポートに関する FAQ ページ](https://azure.microsoft.com/ja-jp/support/faq/)の中と見比べて正しくとりこまれているかを確認することができます。
 
-&nbsp;
+QA を変更した場合は、画面右上の[Save and train]をクリックし、編集内容を保存し、QnA Maker モデルのトレーニングを行います。
 
 ## Q&A のテスト
 
