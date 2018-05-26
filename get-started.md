@@ -39,7 +39,7 @@ Azure Portal の QnA Maker 作成画面で以下の情報を入力します。
 
 #### STEP2
 
-Azure Portal で Qna Maker の作成が完了したら、QnA Maker の [Create a knowledge base] にもどり、STEP2 で以下の情報を入力します。
+Azure Portal で Qna Maker の作成が完了したら、QnA Maker の [Create a knowledge base] ページにもどり、STEP2 で以下の情報を入力します。
 ※Qna Maker の作成完了は Azure Portal の画面右上に通知で表示されます。
 ※QnA Maker のページをリロードすると作成した Qna Maker が選択できるようになります。
 
