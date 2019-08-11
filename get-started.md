@@ -67,7 +67,7 @@ QnA Maker に FAQ データを追加します。
 
 QnA Maker の画面に戻り、STEP4 の**File name** の下にある [Add] をクリックして、解凍したファイル `qna-data-source.tsv` をアップロードします。このファイルは、ヨガのポーズ名と、ポーズの特徴を説明したQAペアとなります。
 
-![image.png](images/step4-1.png)
+![image.png](images/step4-2.png)
 
 &nbsp;
 
