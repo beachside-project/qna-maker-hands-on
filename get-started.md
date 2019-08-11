@@ -62,13 +62,12 @@ Azure Portal で Qna Maker の作成が完了したら、QnA Maker の [Create a
 #### STEP4
 
 QnA Maker に FAQ データを追加します。
-FAQ サイト、Q&A を記載したファイルをアップロードすることができます。今回のハンズオンでは、以下の URL (Azure サポートに関する FAQ ページ)を入力します。
 
-```html
-https://azure.microsoft.com/ja-jp/support/faq/
-```
+まずFAQのデータを[こちらをクリックして](https://github.com/beachside-project/qna-maker-hands-on/raw/master/qna-data-source.zip)ダウンロードします。zip をデスクトップなどのわかりやすい場所に解凍します。
 
-![image.png](images/step4.png)
+QnA Maker の画面に戻り、STEP4 の**File name** の下にある [Add] をクリックして、解凍したファイル `qna-data-source.tsv` をアップロードします。このファイルは、ヨガのポーズ名と、ポーズの特徴を説明したQAペアとなります。
+
+![image.png](images/step4-1.png)
 
 &nbsp;
 
@@ -82,31 +81,29 @@ https://azure.microsoft.com/ja-jp/support/faq/
 
 ナレッジベースの作成が完了すると、ナレッジベースの編集ページが開きます。ナレッジベース編集画面では QA の編集や、追加、削除を行うことができます。
 
-![image.png](images/myknowledgebase.png)
+![image.png](images/myknowledgebase2.png)
 
 &nbsp;
 
-STEP4 で入力した [Azure サポートに関する FAQ ページ](https://azure.microsoft.com/ja-jp/support/faq/)の中と見比べて正しくとりこまれているかを確認することができます。
-
-QA を変更した場合は、画面右上の[Save and train]をクリックし、編集内容を保存し、QnA Maker モデルのトレーニングを行います。
+STEP4 で入力したデータが取り込まれていることを確認します。画面右上の[Save and train]をクリックし、編集内容を保存し、QnA Maker モデルのトレーニングを行います。
 
 ## Q&A のテスト
 
 画面右上の[← Test]をクリックすると、QA のテスト用のページが表示され、実際の QnA Maker の動作を確認できます。想定された質問を入力すると、ナレッジベースから適切な答えを Bot が返答します。
 
-![image.png](images/tests.png)
+![image.png](images/tests2.png)
 
 &nbsp;
 
 [Inspect]をクリックすることで Bot の回答の詳細を確認することができます。
 
-![image.png](images/test-detail.png)
+![image.png](images/test-detail2.png)
 
 &nbsp;
 
-## QnA Maker の Web 公開
+## QnA Maker の Web API 公開
 
-[PUBLISH]をクリックすることでナレッジベースを Web に公開することができます。
+[PUBLISH]をクリックすることでナレッジベースを Web API として公開することができます。
 
 ![image.png](images/publish1.png)
 
