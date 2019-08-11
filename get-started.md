@@ -4,7 +4,7 @@
 
 ### 新規 Q&A Bot サービス の作成
 
-QnA Maker のページ(https://www.qnamaker.ai/)にアクセスし、上部バーの [Create a knowledge base] をクリックし、ナレッジベースを作成します。
+QnA Maker のページ( https://www.qnamaker.ai/ )にアクセスし、上部バーの [Create a knowledge base] をクリックし、ナレッジベースを作成します。
 
 ![image.png](images/lnowledgebaseheader.png)
 
@@ -12,13 +12,13 @@ QnA Maker のページ(https://www.qnamaker.ai/)にアクセスし、上部バ�
 
 #### STEP1
 
-「Create a QnA service」をクリックすると Azure Portal が開き、 QnA Maker 作成画面が表示されます。
+[Create a QnA service] をクリックすると Azure Portal のページに移動し、QnA Maker のリソースの作成画面が表示されます。
 
 ![image.png](images/step1.png)
 
 &nbsp;
 
-Azure Portal の QnA Maker 作成画面で以下の情報を入力します。Azure Portal の右上の通知でリソースの作成が完了するまで少々お待ちください。
+Azure Portal の QnA Maker のリソースの作成画面で以下を参考に情報を入力します。
 
 * **Name**：任意の名前を入力
 * **サブスクリプション**：（自動入力）
@@ -31,7 +31,7 @@ Azure Portal の QnA Maker 作成画面で以下の情報を入力します。Az
 * **App insights**：Enable
 * **App insights location**：お好みの Azure データセンターの拠点を選択
 
-[作成] をクリックすると、サービスが作成されます。
+[作成] をクリックすると、サービスが作成されます。Azure Portal の右上の通知でリソースの作成が完了するまで少々お待ちください。
 
 ![image.png](images/createqnamaker.png)
 
