@@ -113,11 +113,44 @@ STEP4 で入力したデータが取り込まれていることを確認しま�
 
 &nbsp;
 
-QnA Maker サービスが正常に公開されると作成した QnA Maker のエンドポイントが表示されます。
+QnA Maker サービスが正常に公開されると作成した QnA Maker のエンドポイントが表示されます。塗りつぶしている部分は、セキュアな情報となります。
 
-![image.png](images/complete.png)
+- `POST /knowledgebases/` の以降で塗りつぶされている部分は、**KB ID** となります。
+
+![image.png](images/complete2.png)
 
 &nbsp;
+
+## オプション: POSTMAN を使って API にアクセス
+
+POSTMAN は、Web API にアクセスするためのクライアントです。ハンズオンのオプションコンテンツとして、興味がある方はチャレンジしてみてください。
+
+> POSTMAN は[こちら](https://www.getpostman.com/downloads/)からダウンロードし無償でも利用が可能です。
+
+POSTMAN を起動し、以下を参考に入力します。
+
+- メソッドを **POST** に変更
+- URLは、"QnA Maker の Web API 公開" のステップで確認できた **Host** と POST以降のパス（`/knowledgebases/******/generateAnswer` ）を入力
+- [Header] をクリックし2つを入力
+  - Key: **Authorization**, Value: Authorization: EndpointKeyの値を入力
+  - Key: **Content-Type**, Value: **application/json**
+- [Body] タブをクリック > [raw] をクリックし、以下のようにJSON フォーマットで質問を入力
+  ```
+  {"question": "ここに質問を入力", "top": 3}
+  ```
+  
+![image.png](images/postman1.png)
+
+![image.png](images/postman2.png)
+
+&nbsp;
+
+URLの左にある [Send] ボタンをクリックしましょう。入力に問題がなければ、以下図のように結果を取得することができます。
+
+![image.png](images/postman3.png)
+
+&nbsp;
+
 
 ## まとめ
 
