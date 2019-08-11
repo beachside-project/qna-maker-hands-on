@@ -123,7 +123,9 @@ QnA Maker サービスが正常に公開されると作成した QnA Maker の�
 
 ## オプション: POSTMAN を使って API にアクセス
 
-POSTMAN は、Web API にアクセスするためのクライアントです。ハンズオンのオプションコンテンツとして、興味がある方はチャレンジしてみてください。
+※ ハンズオンのオプションコンテンツとして、興味がある方はチャレンジしてみてください。
+
+POSTMAN は、REST のリクエストを送信するためのクライアントです。POSTMAN を使って QnA Maker で公開した Web API にアクセスしてみましょう。
 
 > POSTMAN は[こちら](https://www.getpostman.com/downloads/)からダウンロードし無償でも利用が可能です。
 
