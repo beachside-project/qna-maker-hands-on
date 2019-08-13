@@ -167,6 +167,12 @@ URLの左にある [Send] ボタンをクリックしましょう。入力に問
 
 ## NEXT STEP
 
+- 今回はデータを用意していますがこのデータは勝手に生成されません。このデータの作成方法を以下に記載しています。
+  - [QnA Maker でヨガのポーズからその特徴を調べる（ Python でスクレイピングしてデータ準備編 ）](https://blog.beachside.dev/entry/2019/08/09/190000)
+
+- 今回作成した KB を外部からアクセスする方法については、以下に記載しています。
+  - [QnA Maker の Web API を Ptyhon + Azure Functions でアクセス](https://blog.beachside.dev/entry/2019/08/13/183000)
+
 QnA Maker をバックエンドとして、Azure Bot Service を利用し、Skype や Slack、Microsoft Teams など多くのチャンネルへ公開が可能です。
 
 是非チャレンジしてみましょう。
