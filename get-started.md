@@ -5,9 +5,9 @@ Azure Cognitive Services のひとつである **QnA Maker** を使うことで�
 
 &nbsp;
 
-## QAペアのデータから Q&A Bot 作成
+## QAペアのデータから Q&A Maker の Knowledge Base 作成
 
-### 新規 Q&A Bot サービス の作成
+### 新規 Q&A Maker の作成
 
 QnA Maker のページ( https://www.qnamaker.ai/ )にアクセスし、上部バーの [Create a knowledge base] をクリックし、ナレッジベースを作成します。
 
