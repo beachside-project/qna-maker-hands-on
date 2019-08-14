@@ -90,7 +90,18 @@ QnA Maker の画面に戻り、STEP4 の**File name** の下にある [Add] を�
 
 &nbsp;
 
-STEP4 で入力したデータが取り込まれていることを確認します。画面右上の[Save and train]をクリックし、編集内容を保存し、QnA Maker モデルのトレーニングを行います。
+STEP4 で入力したデータが取り込まれていることを確認します。ここでとりこまれたデータを見てみましょう。  
+「両手を強く上に上げるポーズ」は、Question が「両手を強く上に上げるポーズ (別名: 手を上にあげたポーズ、)」という一文章なっています。質問者が質問する可能性があるのは、「両手を強く上に上げるポーズ」や「手を上にあげたポーズ」「太陽を仰ぐポーズ」だと想像できます。Question の欄を編集し、以下のようにしてみると回答の精度があがる可能性があります。
+
+![image.png](images/question-edit.png)
+
+&nbsp;
+
+今回はこれら部分を細かく見ませんが、テストをしてみてうまく回答できない質問がったらこの Question の修正によって質問のパターンをカスタマイズしたり、後述の [Inspect] で正しい回答を割り当てることで精度を向上できます。
+
+編集内容を保存して QnA Maker モデルのトレーニングを行うために、画面右上の [Save and train] をクリックします。
+
+[Save and train] の処理完了を待ちます。
 
 ## Q&A のテスト
 
@@ -167,17 +178,18 @@ URLの左にある [Send] ボタンをクリックしましょう。入力に問
 
 ## NEXT STEP
 
-今回はデータを用意していますがこのデータは勝手に生成されません。このデータの作成方法を以下に記載しています。
+今回はデータを用意していますがこのデータは勝手に生成されません。このデータの作成方法を以下に記載しています。Python によるデータスクレイピングに興味がある方はチャレンジしてみましょう。
 
 - [QnA Maker でヨガのポーズからその特徴を調べる（ Python でスクレイピングしてデータ準備編 ）](https://blog.beachside.dev/entry/2019/08/09/190000)
 
-今回作成した KB を外部からアクセスする方法については、以下に記載しています。
+今回作成した KB を外部からアクセスする方法については、以下に記載しています。サーバーレスのサービスである Azure Functions から QnA Maker への接続に興味がありましたらチャレンジしてみましょう。
+
 - [QnA Maker の Web API を Ptyhon + Azure Functions でアクセス](https://blog.beachside.dev/entry/2019/08/13/183000)
 
-QnA Maker をバックエンドとして、Azure Bot Service を利用し、Skype や Slack、Microsoft Teams など多くのチャンネルへ公開が可能です。
+&nbsp;
 
-是非チャレンジしてみましょう。
+また、QnA Maker をバックエンドとして Azure Bot Service を利用し、Skype や Slack、Microsoft Teams など多くのチャンネルへ公開が可能です。興味が下記ドキュメントを見てみましょう。
 
-* [Azure Bot Service](https://azure.microsoft.com/ja-jp/services/bot-service/)
+- [Azure Bot Service](https://azure.microsoft.com/ja-jp/services/bot-service/)
 
-* [参考ブログ：BOT 作成がより簡単に。Azure Bot Service による BOT アプリ作成＆公開](https://blogs.msdn.microsoft.com/bluesky/2016/11/16/how-to-create-publish-bot-using-azure-bot-service/)
+- [参考ブログ：BOT 作成がより簡単に。Azure Bot Service による BOT アプリ作成＆公開](https://blogs.msdn.microsoft.com/bluesky/2016/11/16/how-to-create-publish-bot-using-azure-bot-service/)
