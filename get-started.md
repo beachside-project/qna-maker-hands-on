@@ -1,5 +1,9 @@
 # Q&A をコーディングなしで Bot 化！ Cognitive Services QnA Maker による Q&A Bot 作成
 
+ここでは、ヨガのポーズを質問したらその特徴の説明の回答をする QnA Maker の Knowledge Base を作成します。
+
+&nbsp;
+
 ## FAQ サイト または リストからの Q&A Bot 作成
 
 ### 新規 Q&A Bot サービス の作成
@@ -68,7 +72,7 @@ Azure Portal で Qna Maker の作成が完了したら、QnA Maker の [Create a
 
 QnA Maker に FAQ データを追加します。
 
-まずFAQのデータを[こちらをクリックして](https://github.com/beachside-project/qna-maker-hands-on/raw/master/qna-data-source.zip)ダウンロードします。zip をデスクトップなどのわかりやすい場所に解凍します。
+FAQのデータはリポジトリーのデータを用意しています。[こちらをクリック](https://github.com/beachside-project/qna-maker-hands-on/raw/master/qna-data-source.zip)してダウンロードします。zip をデスクトップなどのわかりやすい場所に解凍します。
 
 QnA Maker の画面に戻り、STEP4 の**File name** の下にある [Add] をクリックして、解凍したファイル `qna-data-source.tsv` をアップロードします。このファイルは、ヨガのポーズ名と、ポーズの特徴を説明したQAペアとなります。
 
