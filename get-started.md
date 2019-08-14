@@ -1,10 +1,11 @@
-# Q&A をコーディングなしで Cognitive Services QnA Maker による FAQ Bot 作成
+# No Coding で FAQ Bot 開発
 
-ここでは、ヨガのポーズを質問したらその特徴の説明の回答をする QnA Maker の Knowledge Base を作成します。
+ここでは、ヨガのポーズを質問したらその特徴の説明の回答をする FAQ ボットを作成します。  
+Azure Cognitive Services のひとつである **QnA Maker** を使うことで、コーディングレスで作ることができます。
 
 &nbsp;
 
-## FAQ サイト または リストからの Q&A Bot 作成
+## QAペアのデータから Q&A Bot 作成
 
 ### 新規 Q&A Bot サービス の作成
 
