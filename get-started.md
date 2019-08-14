@@ -1,4 +1,4 @@
-# Q&A をコーディングなしで Bot 化！ Cognitive Services QnA Maker による Q&A Bot 作成
+# Q&A をコーディングなしで Cognitive Services QnA Maker による FAQ Bot 作成
 
 ここでは、ヨガのポーズを質問したらその特徴の説明の回答をする QnA Maker の Knowledge Base を作成します。
 
